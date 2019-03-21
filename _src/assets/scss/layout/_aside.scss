@@ -26,3 +26,25 @@
   @include paragraphStyle (#000000);
   margin: 0 0 45px 0;
 }
+
+.aside__button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside__button {
+  height: 45px;
+  width: 184px;
+  border: none;
+  border-radius: 50px;
+  background-color: $colorOrange;
+  margin-bottom: 60px;
+}
+
+.aside__button__link {
+  // text-decoration: none;
+  @include buttonTextStyle($colorWhite);
+  margin: 0;
+  line-height: 45px;
+}

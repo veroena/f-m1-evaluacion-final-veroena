@@ -28,6 +28,8 @@
 }
 
 .main__button__link {
-  text-decoration: none;
+  // text-decoration: none;
   @include buttonTextStyle($colorOrange);
+  margin: 0;
+  line-height: 39px;
 }
