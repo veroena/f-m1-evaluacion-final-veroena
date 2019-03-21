@@ -1,5 +1,8 @@
 .hero {
-  background-image: url(../../../assets/images/cover.jpg);
+  background: url('../../../assets/images/cover.jpg') top center no-repeat $colorWhite;
   background-position: center;
   min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
 }

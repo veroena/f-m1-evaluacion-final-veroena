@@ -14,8 +14,8 @@
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: -5%;
-  transform: translate(-50%);
+  top: 0;
+  transform: translate(-50%, -50%);
 }
 
 .footer__container {
