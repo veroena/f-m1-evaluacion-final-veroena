@@ -6,9 +6,31 @@
   font-weight: bold;
 }
 
+@mixin titleStyleTablet() {
+  font-family: $fontTitle;
+  color: #000000;
+  line-height: 45px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+@mixin titleStyleDesktop() {
+  font-family: $fontTitle;
+  color: #000000;
+  line-height: 45px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 @mixin paragraphStyle($color) {
   font-family: $fontText;
   font-size: 18px;
+  line-height: 30px;
+}
+
+@mixin paragraphStyleTablet($color) {
+  font-family: $fontText;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -28,6 +50,13 @@
 @mixin gridTitle {
   font-family: $fontTitle;
   font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+@mixin gridTitleTablet {
+  font-family: $fontTitle;
+  font-size: 24px;
   line-height: 30px;
   font-weight: bold;
 }
