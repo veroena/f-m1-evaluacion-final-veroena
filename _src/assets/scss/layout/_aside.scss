@@ -11,6 +11,10 @@
   @media all and (min-width: 768px) {
     @include titleStyleTablet;
   }
+  @media all and (min-width: 1200px) {
+    @include titleStyleDesktop;
+    padding-top: 60px;
+  }
 }
 
 .aside__grid {
@@ -65,5 +69,11 @@
     color: $colorOrange;
     border: solid 2px $colorOrange;
     transition: ease 0.3s;
+  }
+  @media all and (min-width: 768px) {
+    width: 210px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 255px;
   }
 }
