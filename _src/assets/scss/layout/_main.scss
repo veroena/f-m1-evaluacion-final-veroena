@@ -1,5 +1,8 @@
 #page__main {
   padding-bottom: 45px;
+  @media all and (min-width: 768px){
+    padding-bottom: 60px;
+  }
 }
 
 .main__above-title {
@@ -14,12 +17,19 @@
 .main__title {
   @include titleStyle;
   margin: 0 0 15px 0;
+  @media all and (min-width: 768px) {
+    @include titleStyleTablet;
+    margin: 0 0 30px 0;
+  }
 }
 
 .main__text {
  @include paragraphStyle($colorGray);
  padding-bottom: 30px;
  margin: 0;
+ @media all and (min-width: 768px) {
+   @include paragraphStyleTablet($colorGray);
+ }
 }
 
 .main__button {
