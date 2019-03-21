@@ -37,8 +37,8 @@
 @mixin buttonTextStyle($color) {
   font-family: $fontText;
   font-size: 20px;
-  line-height: 45px;
   font-weight: 500;
+  color: $colorOrange;
 }
 
 @mixin linkStyle {
