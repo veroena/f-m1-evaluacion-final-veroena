@@ -1,3 +1,51 @@
 .header__title {
   margin: 0;
+  font-family: $fontTitle;
+  color: $colorWhite;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 55px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.header__sub-title {
+  font-family: $fontText;
+  color: $colorWhite;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.header__arrow {
+  height: 45px;
+  width: 45px;
+  background-color: $colorWhite;
+  border-radius: 50%;
+  background-image: url(../../../assets/images/ico-scroll-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.burger__button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $colorMedium;
+  border: none;
+  height: 44px;
+  width: 44px;
+  background-image: url(../../../assets/images/ico-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
