@@ -12,6 +12,10 @@
     font-size: 80px;
     line-height: 106px;
   }
+  @media all and (min-width: 1200px){
+    font-size: 100px;
+    line-height: 132px;
+  }
 }
 
 .header__sub-title {
@@ -25,6 +29,9 @@
     font-size: 24px;
     margin: 20px 0 30px 0;
   }
+  @media all and (min-width: 768px) {
+    margin: 0 0 30px 0;
+  }
 }
 
 .header {
@@ -37,6 +44,9 @@
   box-sizing: border-box;
   @media all and (min-width: 768px) {
     padding-bottom: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-bottom: 13px;
   }
 }
 
