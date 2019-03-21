@@ -1,0 +1,60 @@
+.page__footer {
+  background-color: $colorDark;
+  position: relative;
+}
+
+.footer__arrow  {
+  height: 45px;
+  width: 45px;
+  background-color: $colorWhite;
+  border-radius: 50%;
+  background-image: url(../../../assets/images/ico-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: -5%;
+  transform: translate(-50%);
+
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__links__list, .footer__social__list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0,
+}
+
+.footer__links__list {
+  padding: 60px 0 30px 0;
+}
+
+.footer__social__list {
+  padding-bottom: 30px;
+}
+
+.footer__links__item, .footer__social__item {
+  text-decoration: none;
+  @include linkStyle;
+}
+
+.footer__copy {
+  color: $colorWhite;
+  font-family: $fontText;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.footer__love {
+  margin: 0;
+  padding-bottom: 45px;
+}
