@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 15px;
+  @media all and (min-width: 768px){
+    margin: 0 39px;
+  }
+  @media all and (min-width: 1200px){
+    margin: 0 85px;
+  }
+}
