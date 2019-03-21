@@ -1,6 +1,12 @@
 .page__footer {
   background-color: $colorDark;
   position: relative;
+  @media all and (min-width: 1200px) {
+    padding: 45px 370px 45px 370px;
+    .wrapper {
+      margin: 0;
+    }
+  }
 }
 
 .footer__arrow  {
@@ -28,8 +34,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px;
+    grid-gap: 30px;
     text-align: left;
     padding: 45px 0;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0;
   }
 }
 
