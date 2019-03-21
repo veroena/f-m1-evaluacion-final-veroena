@@ -16,7 +16,6 @@
   left: 50%;
   top: -5%;
   transform: translate(-50%);
-
 }
 
 .footer__container {
@@ -57,4 +56,8 @@
 .footer__love {
   margin: 0;
   padding-bottom: 45px;
+}
+
+.footer__love-heart {
+  color: $colorOrange;
 }
