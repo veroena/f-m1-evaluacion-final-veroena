@@ -10,7 +10,6 @@
 .main__title {
   @include titleStyle;
   margin: 0 0 15px 0;
-  text-transform: capitalize;
 }
 
 .main__text {

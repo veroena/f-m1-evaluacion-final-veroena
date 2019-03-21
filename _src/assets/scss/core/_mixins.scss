@@ -4,6 +4,7 @@
   line-height: 30px;
   font-size: 24px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 @mixin titleStyleTablet() {
@@ -26,6 +27,7 @@
   font-family: $fontText;
   font-size: 18px;
   line-height: 30px;
+  color: $colorGray;
 }
 
 @mixin paragraphStyleTablet($color) {
