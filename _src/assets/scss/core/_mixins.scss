@@ -1,0 +1,33 @@
+@mixin titleStyle() {
+  font-family: $fontTitle;
+  color: #000000;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@mixin paragraphStyle($color) {
+  font-family: $fontText;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@mixin buttonTextStyle($color) {
+  font-family: $fontText;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+@mixin linkStyle {
+  font-family: $fontText;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@mixin gridTitle {
+  font-family: $fontTitle;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
