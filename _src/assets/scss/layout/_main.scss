@@ -3,6 +3,12 @@
   @media all and (min-width: 768px){
     padding-bottom: 60px;
   }
+  @media all and (min-width: 1200px) {
+    padding: 60px 275px 60px 275px;
+    .wrapper {
+      margin: 0;
+    }
+  }
 }
 
 .main__above-title {
@@ -12,6 +18,9 @@
   color: $colorLight;
   padding: 30px 0 1px 0;
   margin: 0;
+  @media all and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .main__title {
@@ -21,6 +30,9 @@
   @media all and (min-width: 768px) {
     @include titleStyleTablet;
     padding-bottom: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    @include titleStyleDesktop;
   }
 }
 
