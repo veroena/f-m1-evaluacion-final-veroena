@@ -26,7 +26,11 @@
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-gap: 27.7px;
     padding: 0;
+  }
+  @media all and (min-width: 1200px) {
+    grid-gap: 26.2px;
   }
 
   .aside__grid__item-title {
