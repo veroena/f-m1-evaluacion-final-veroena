@@ -28,24 +28,24 @@
     grid-template-rows: 1fr;
     padding: 0;
   }
-}
 
-.aside__grid__item-title {
-  @include gridTitle;
-  margin: 0;
-  @media all and (min-width: 768px) {
-    @include gridTitleTablet;
-    padding-bottom: 14px;
+  .aside__grid__item-title {
+    @include gridTitle;
+    margin: 0;
+    @media all and (min-width: 768px) {
+      @include gridTitleTablet;
+      padding-bottom: 14px;
+    }
   }
-}
-
-.aside__grid__item-text {
-  @include paragraphStyle (#000000);
-  padding-bottom: 45px;
-  margin: 0;
-  @media all and (min-width: 768px) {
-    @include paragraphStyleTablet(#000000);
-    padding-bottom: 60px;
+  
+  .aside__grid__item-text {
+    @include paragraphStyle (#000000);
+    padding-bottom: 45px;
+    margin: 0;
+    @media all and (min-width: 768px) {
+      @include paragraphStyleTablet(#000000);
+      padding-bottom: 60px;
+    }
   }
 }
 
@@ -53,27 +53,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.aside__button {
-  height: 45px;
-  width: 184px;
-  border: none;
-  border-radius: 50px;
-  border: solid 2px transparent;
-  background-color: $colorOrange;
-  @include buttonTextStyle($colorWhite);
-  line-height: 40px;
-  &:hover {
-    background-color: $colorWhite;
-    color: $colorOrange;
-    border: solid 2px $colorOrange;
-    transition: ease 0.3s;
-  }
-  @media all and (min-width: 768px) {
-    width: 210px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 255px;
-  }
 }
