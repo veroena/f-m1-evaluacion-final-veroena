@@ -80,7 +80,17 @@
   top: 0;
   transform: translate(-50%, -50%);
   &:hover {
-    transform: scale(1.5);
-    transition: ease 1s;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+  }
+}
+
+@keyframes arrow {
+  from {
+    top: -2%;
+  }
+  to {
+    top: 6%;
   }
 }
