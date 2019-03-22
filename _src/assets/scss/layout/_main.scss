@@ -45,23 +45,3 @@
  }
 }
 
-.main__button {
-  height: 45px;
-  padding: 0 25px 0 26px;
-  border: solid 2px $colorOrange;
-  border-radius: 50px;
-  background-color: $colorWhite;
-  @include buttonTextStyle($colorOrange);
-  margin: 0;
-  &:hover {
-    background-color: $colorOrange;
-    color: $colorWhite;
-    transition: ease 0.3s;
-  }
-  @media all and (min-width: 768px){
-    width: 91px;
-  }
-  @media all and (min-width: 1200px){
-    width: 160px;
-  }
-}

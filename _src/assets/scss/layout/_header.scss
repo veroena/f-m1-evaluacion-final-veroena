@@ -52,26 +52,3 @@
   }
 }
 
-.header__arrow {
-  height: 45px;
-  width: 45px;
-  background-color: $colorWhite;
-  border-radius: 50%;
-  background-image: url(../../../assets/images/ico-scroll-down.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-.burger__button {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: $colorMedium;
-  border: none;
-  height: 44px;
-  width: 44px;
-  background-image: url(../../../assets/images/ico-menu.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
