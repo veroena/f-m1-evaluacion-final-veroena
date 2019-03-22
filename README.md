@@ -47,4 +47,5 @@ Viene incluído el paquete gulp-combine-mq que agrupa todas las mediaqueries al 
 En principio puedes descargar todos los archivos fuera de _src/ y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de _src/.
 
 
-Si tienes alguna duda o problema, comunícate conmigo a través de los Issues. ¡Gracias por pasarte! 
+
+Si tienes alguna duda o problema, comunícate conmigo a través de los Issues ;) ¡Gracias por pasarte!
