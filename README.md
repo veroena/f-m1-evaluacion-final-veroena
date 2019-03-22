@@ -32,17 +32,18 @@ Esta es la estructura de carpetas que vas a encontrar aquí:
    |
    `- templates
       `- partials
+```
 
-HTML: 
+### HTML: 
 Viene incluído el paquete gulp-html-partial que permiter tener un sistema de plantillas html
 
-Imágenes e iconos
+### Imágenes e iconos
 En _src/ hay una carpeta para las imágenes del proyecto y una para los iconos.
 
-CSS
+### CSS
 Viene incluído el paquete gulp-combine-mq que agrupa todas las mediaqueries al final del documento css.
 
-¿Cómo actualizo si tengo una versión anterior?
+### ¿Cómo actualizo si tengo una versión anterior?
 En principio puedes descargar todos los archivos fuera de _src/ y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de _src/.
 
 
