@@ -35,17 +35,18 @@
     color: $colorWhite;
     transition: ease 0.3s;
   }
-  @media all and (min-width: 768px){
-    width: 91px;
-  }
-  @media all and (min-width: 1200px){
-    width: 160px;
-  }
+  // @media all and (min-width: 768px){
+  //   width: 91px;
+  // }
+  // @media all and (min-width: 1200px){
+  //   width: 160px;
+  // }
 }
 
 .aside__button {
   height: 45px;
-  width: 184px;
+  // width: 184px;
+  padding: 0 25px 0 26px;
   border: none;
   border-radius: 50px;
   border: solid 2px transparent;
@@ -58,12 +59,12 @@
     border: solid 2px $colorOrange;
     transition: ease 0.3s;
   }
-  @media all and (min-width: 768px) {
-    width: 210px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 255px;
-  }
+  // @media all and (min-width: 768px) {
+  //   width: 210px;
+  // }
+  // @media all and (min-width: 1200px) {
+  //   width: 255px;
+  // }
 }
 
 .footer__arrow  {
@@ -83,6 +84,9 @@
     animation-name: arrow;
     animation-duration: 1s;
     animation-iteration-count: 3;
+  }
+  @media all and (max-width: 768px) {
+    display: none;
   }
 }
 

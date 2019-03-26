@@ -15,6 +15,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 45px;
   @media all and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -63,6 +64,8 @@
   font-size: 14px;
   line-height: 30px;
   text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
   @media all and (min-width: 768px) {
     grid-column: 1/2;
     grid-row: 1;
@@ -71,7 +74,6 @@
   }
   .footer__love {
     margin: 0;
-    padding-bottom: 45px;
     .footer__love-heart {
       color: $colorOrange;
     }
